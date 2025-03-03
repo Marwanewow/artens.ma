@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: rgba(62, 171, 222, 1);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+h1::before,
+h1::after {
+  content: "———";
+  margin: 0 10px;
+  color: rgba(62, 171, 222, 1);
+}
+
+.partner-table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.partner-cell {
+  border: 1px solid #000; /* Adjust border style/color as needed */
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.partner-logo {
+  max-width: 200px;
+  max-height: 200px;
+}

@@ -1,0 +1,89 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  height: 500px;
+  margin: 0 auto;
+  background: rgba(23, 31, 46, 1);
+  padding: 0px 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 30px rgba(62, 171, 222, 0.76);
+}
+
+.infomation {
+  width: 40%;
+  text-align: left;
+  padding: 20px;
+}
+
+.contact h2 {
+  color: rgba(62, 171, 222, 1);
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.infomation p {
+  text-align: left;
+  color: aliceblue;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.infomation ul {
+  list-style: none;
+  padding: 0;
+}
+
+.infomation li {
+  font-size: 18px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  color: aliceblue;
+}
+
+.form {
+  width: 55%;
+  text-align: left;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background: aliceblue;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: rgba(23, 31, 46, 1);
+  font-weight: bold;
+}
+
+.form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  background: rgba(62, 171, 222, 1);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form button:hover {
+  background: #1c2c3a;
+}
