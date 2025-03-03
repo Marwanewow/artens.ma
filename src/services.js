@@ -56,8 +56,7 @@ const Services = ({ data }) => {
           />
           <h3>Multimedia Production</h3>
           <p>
-            Création de contenu photo et vidéo professionnel de haute qualité
-            pour tous vos besoins.
+            Création de contenu professionnel de haute qualité pour vos besoins.
           </p>
         </div>
       </div>
