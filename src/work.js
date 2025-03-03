@@ -84,8 +84,6 @@ const WORK = ({ data }) => {
         </div>
       </div>
 
-      <br/>
-      
       <div className="stats">
         <div className="space">
           <p>More Than</p>
