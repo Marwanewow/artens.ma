@@ -40,7 +40,7 @@ h1::after {
   gap: 80px; /* Espacement entre les images */
   width: 90%; /* Largeur maximale pour garder une marge */
   max-width: 1400px; /* Ajuste la largeur max */
-  margin: auto;
+  margin: 10px;
   padding: 20px;
 }
 
